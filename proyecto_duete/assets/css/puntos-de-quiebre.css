@@ -1,0 +1,381 @@
+@media (max-width: 767.98px) {
+    .botonNavbar{
+        margin-top: 10px;
+    }
+    .iconAdminNavbar{
+        margin-left: -6px;
+    }
+    .iconoCategoria{
+        margin-left: -3px;
+    }
+    .carruselFondo2{
+        display: none;
+    }
+    .imagenInfo{
+        width: 35px;
+        height: auto;
+    }
+    .custom-anchor{
+        float: inline-start;
+        padding-inline-start: 20px;
+    }
+    .columnaInfo{
+        border-bottom: 1px solid #ccc;
+    }
+    .carruselProductos1, .carruselProductos2{
+        padding: 10px 0 10px 0;
+    }
+    .card-body{
+        height: 80px;
+    }
+    .banner, .banner2{
+        display: none;
+    }
+    .card{
+        width: 14rem;
+    }
+    .promocionesTxt{
+        font-size: 20px;
+    }
+    .botonPromociones{
+        margin-top: 15px;
+    }
+    .fila-footer{
+        text-align: center;
+    }
+    .listaFooter{
+        margin-right: 30px;
+    }
+    .imagenAtCliente{
+        display: none;
+    }
+    .quienesSomosTxt{
+        padding-top: 30px;
+    }
+    .tYC{
+        padding: 0 35px 15px 35px;
+    }
+    .colEnvio{
+        border-bottom: 1px solid rgb(214, 214, 214);
+        margin-bottom: 20px;
+    }
+    .envios p{
+        padding-bottom: 10px;
+    }
+    .enviosImg, .pagosImg{
+        width: 15%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .cabeceraCatalogo h2, .productosEncontrados{
+        text-align: center;
+    }
+    .cartaCatalogo{
+        width: 11rem;
+    }
+    .botonCartaCatalogoLg{
+        display: none;
+    }
+    .selectOrdenarPor{
+        font-size: 15px;
+        padding: 10px;  
+    }
+    .ordenarPor p{
+        display: none;
+    }
+    .imgVistaProd{
+        display: inline-block;
+        width: 60%;
+        height: auto;
+    }
+    .containerVistaProducto{
+        text-align: center;
+    }
+    .productosRelacionados h3{
+        text-align: center;
+    }
+    .contenedorCarrito h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .datosProductoCar{
+        padding: 10px 20px;
+    }
+    .imgProductoCar{
+        width: 70px;
+        height: 70px;
+        margin-left: 10px;
+    }
+    .datosCar{
+        font-size: 12px;
+    }
+    .resumenCar{
+        margin-top: 10px;
+    }
+    .modalEditarImg{
+        width: 30%;
+        height: auto;
+    }
+    .modalEditarCar{
+        display: flex;
+        text-align: center;
+    }
+    .tituloCrud{
+        text-align: center;
+    }
+    .facturaContainer{
+        font-size: 11px;
+    }
+    .filaImgFactura img{
+        margin-right: 10px;
+        width: 100px;
+        height: auto;
+    }
+    .totalFacturaSm{
+        text-align: start;
+    }
+    .filaDatosFacturaMd{
+        display: none;
+    }
+    .filaDatosFacturaSm{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .filaIndicesFactura{
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 767.98px){
+    .dropdownHover .dropdown-menu{
+        display: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+    .dropdownHover:hover .dropdown-menu{
+        display: block;
+        margin: 0px;
+    }
+    .carruselFondo1{
+        display: none;
+    }
+    .custom-anchor{
+        float: inline-end;
+        padding-inline-end: 20px;
+        padding-top: 30px;
+    }
+    .columnaInfo{
+        border-right: 1px solid #ccc;
+    }
+    .banner, .banner2{
+        margin-left: 20px;
+    }
+    .card-body{
+        height: 95px;
+    }
+    .footer-links p{
+        margin-left: 30px;
+    }
+    .imagenAtCliente1{
+        display: none;
+    }
+    .padding-form{
+        padding-top: 37px;
+    }
+    .quienesSomosTxt{
+        padding-top: 30px;
+    }
+    .tYC{
+        padding: 0 50px 30px 50px;
+    }
+    .colEnvio, .colMediosDePago{
+        border-right: 1px solid rgb(214, 214, 214);
+    }
+    .envios p{
+        padding-bottom: 30px
+    }
+    .bordeTabla1{
+        border-top-left-radius: 10px;
+    }
+    
+    .bordeTabla2{
+        border-top-right-radius: 10px;
+    }
+    
+    .bordeTabla3{
+        border-bottom-left-radius: 10px;
+    }
+    
+    .bordeTabla4{
+        border-bottom-right-radius: 10px;
+    }
+    .sucursal p{
+        padding: 0 50px 0 50px;
+    }
+    .enviosImg, .pagosImg{
+        width: 25%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    div.dt-container div.dt-paging ul.pagination{
+        margin-right: 30px !important;
+    }
+    .botonCartaCatalogoSm{
+        display: none;
+    }
+    .productosEncontrados{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .selectOrdenarPor{
+        font-size: 13px;
+        margin-top: 7px;
+    }
+    .ordenarPor p{
+        text-align: end;
+        margin-top: 12px;
+    }
+    .cartaCatalogo{
+        width: 14rem;
+    }
+    .imgVistaProd{
+        margin-right: 30px;
+        margin-top: 80px;
+        width: 650px;
+        height: auto;
+    }
+    .productosRelacionados h3{
+        margin-left: 50px;
+    }
+    .productosCarrito{
+        padding: 5px;
+    }
+    .contenedorCarrito h2{
+        margin-bottom: 20px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .datosProductoCar{
+        padding: 5px 20px;
+        margin-left: 10px;
+    }    
+    .imgProductoCar{
+        width: 65px;
+        height: 65px;
+    }
+    .resumenCar{
+        margin-left: 5px;
+    }
+    .totalFacturaSm{
+        text-align: end;
+    }
+    .filaDatosFacturaMd{
+        margin-top: 10px;
+    }
+    .facturaContainer{
+        font-size: 13px;
+    }
+    .filaDatosFacturaSm{
+        display: none;
+    }
+    .filaIndicesFactura{
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 576px){
+    .cartaCatalogoBody{
+        height: 100px;
+        width: auto;
+    }
+    .catalogo{
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 576px){
+    .promociones{
+        border-radius: 30px;
+    }
+    .card{
+        width: 15rem;
+    }
+    .cartaCatalogo{
+        width: 14rem;
+    }
+}
+
+@media (min-width: 990px){
+    .carruselProductos1{
+        padding-top: 30px;
+        margin-right: 20px;
+    }
+    .carruselProductos2{
+        padding-top: 30px;
+        margin-left: 20px;
+    }
+    .card-body{
+        height: 80px;
+    }
+    .quienesSomosTxt{
+        padding-top: 120px;
+    }
+    .quienesSomosImg{
+        margin-bottom: 20px;
+    }
+    .tYC{
+        padding: 0 125px 30px 125px;
+    }
+    .envios, .mediosDePago{
+        padding: 0 50px 0 50px;
+    }
+    .imgVistaProd{
+        margin-top: 20px;
+    }
+    .productosRelacionados .row{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .imgProductoCar{
+        margin-left: 30px;
+    }
+    .datosProductoCar{
+        margin-left: 30px;
+    }  
+    .resumenCar{
+        margin-left: 50px;
+    }
+    .facturaContainer{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cartaCatalogo{
+        width: 16rem;
+    }
+}
+
+@media (max-width: 379px){
+    .botonNavbar2{
+        font-size: 13px;
+    }
+    .cartaCatalogo{
+        width: 10rem;
+    }
+    .datosProductoCar{
+        font-size: 12px;
+    }
+    .carEliminar{
+        font-size: 15px;
+    }
+    .imgProductoCar{
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+    }
+}

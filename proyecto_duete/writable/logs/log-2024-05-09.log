@@ -1,0 +1,9 @@
+CRITICAL - 2024-05-09 17:59:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/iniciar_sesion.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/iniciar_sesion.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/iniciar_sesion', [], true)
+ 3 APPPATH\Controllers\Home.php(56): view('front/iniciar_sesion')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->iniciar_sesion()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,1000 @@
+
+/* Estilos para la fuente */
+
+@font-face {
+    font-family: 'fuenteST';
+    src: url(fuente/static/Montserrat-Regular.ttf);
+}
+
+body{
+    font-family: 'fuenteST';
+    font-size: 15px;
+}
+
+/* Estilos para la navbar */
+
+.logo{
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.navbar-brand{
+    max-width: 180px;
+} 
+
+.botonNavbar{
+    padding-right: 30px;
+}
+
+.iconoNavbar{
+    transition: .1s all ease;
+}
+
+.icon-link-hover{
+    --bs-icon-link-transform: translate3d(0, -.150rem, 0);
+}
+
+.iconoCategoria{
+    height: 20px;
+    width: 36px;
+}
+
+.botonNavbar2{
+    padding-right: 15px;
+    margin-top: 9px;
+}
+
+.navbar2-guion{
+    margin-top: 17px;
+    margin-right: 15px;
+    user-select: none;
+}
+
+.botonNavbar2:hover, .ubicacion:hover{
+    text-decoration: underline;
+}
+
+.navbar2{
+    height: 30px;
+}
+
+.iconAdminNavbar{
+    width: 37px;
+    height: 21px;
+    color: red;
+}
+
+.dropdownHover .dropdown-menu li a{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.dropdownHover .dropdown-menu li a:active{
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+
+.dropdown-menu{
+    margin: 0px;
+    padding: 1px;
+}
+
+
+/* Estilos para el carrusel */
+
+.carousel-item{
+    transition: transform .6s ease;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 8vh;
+    height: 8vh;
+    background-color: #abababe1;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.7;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+}
+
+.carousel-control-prev{
+    margin-left: 20px;
+}
+
+.carousel-control-next{
+    margin-right: 20px
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 4vh;
+    height: 4vh;
+}
+
+/* Estilos para la sección de información PRINCIPAL */
+
+.linksInfo{
+    text-decoration: none;
+    color: black
+}
+
+.linksInfo:hover{
+    text-decoration: underline;
+}
+
+.iconoInfo{
+    height: 45px;
+    width: auto;
+}
+
+.negrita{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Estilos para productos destacados PRINCIPAL */
+
+.destacadosTitle{
+    text-align: start;
+}
+
+/* Estilos para las cartas PRINCIPAL*/
+
+.card-title1{
+    justify-content: center;
+}
+
+.marca{
+    color: gray;
+}
+
+.card{
+    display: flex;
+    margin: 0 5px 7px 5px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card img{
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.card-body{
+    padding-top: 7px;
+    padding-bottom: 0px;
+}
+
+.imgCarruselProd{
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.card-footer{
+    padding-top: 0px;
+    margin-top: 0px;
+    border-top: none;
+}
+
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.botonCarta{
+    width: 100%;
+    font-size: 15px;
+}
+
+.btn.btn-danger{
+    background-color: red;
+}
+
+.btn.btn-danger:hover{
+    background-color: rgb(190, 0, 0);
+}
+
+.btn.btn-danger:active{
+    background-color: rgb(150, 0, 0);
+    border-color: rgb(150, 0, 0);
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.mySwiper .swiper-button-prev, .mySwiper .swiper-button-next,
+.swiperProductosRel .swiper-button-prev, .swiperProductosRel .swiper-button-next{
+    color: rgb(255, 255, 255);
+    --swiper-navigation-size: 15px;
+    border-radius: 50%;
+    background-color: rgb(160, 160, 160);
+    padding: 20px;
+    opacity: 0.7;
+    top: 50%;
+    transform: translateY(-30%);
+    transition: all .2s ease;
+}
+
+.mySwiper .swiper-button-prev:hover, .mySwiper .swiper-button-next:hover,
+.swiperProductosRel .swiper-button-prev:hover, .swiperProductosRel .swiper-button-next:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    background-color: rgb(101, 101, 101);
+}
+
+.banner, .banner2{
+    width: 240px;
+    height: auto;
+}
+
+/* Estilos para formulario de promociones PRINCIPAL */
+
+.promociones{
+    background-color: rgb(70, 70, 70);
+}
+
+.promocionesTxt{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.promocionesForm-exito, .promocionesForm-error{
+    font-weight: 600;
+    text-align: center;
+}
+
+.promocionesForm-exito{
+    color: green;
+}
+
+.promocionesForm-error{
+    color: red;
+}
+/* Estilos para el Footer */
+
+.fila-footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.footer-links p{
+    padding-bottom: 3px;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom: 2px solid red;
+    display: inline-block;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    transition: all .3s ease;
+}
+
+.footer-links ul li a:hover{
+    color: black;
+    padding-left: 3px;
+}
+
+.listaFooter{
+    list-style-type: none;
+}
+
+.iconoRedes{
+    margin-top: 25px;
+    font-size: 23px;
+    padding-left: 10px;
+    color: rgb(60, 60, 60);
+}
+
+.iconoRedes:hover{
+    color: black
+}
+
+/* Estilos para atención al cliente */
+
+.imagenAtCliente, .imagenAtCliente1{
+    max-width: 100%;
+}
+
+.horarios{
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(158, 158, 158);
+}
+
+.horarios h1{
+    border-bottom: 1px solid rgb(158, 158, 158);
+    padding-bottom: 10px;
+}
+
+.horarios p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.horarios span{
+    color: rgb(14, 117, 0);
+}
+
+/* Estilos para formulario Atencion al cliente*/
+
+.form-control:focus {
+    border-color: #000000;
+    box-shadow: 0 0 0 3px rgb(190, 190, 190);
+}
+
+.form-check-input:checked{
+    background-color: #000000;
+    border: #000000;
+}
+
+.form-check-input:focus{
+    
+    border-color: #000000;
+    box-shadow: 0 0 0 3px rgb(190, 190, 190);
+}
+
+.formularioContainer{
+    margin-top: 10px;
+    margin-bottom: 15vh;
+}
+
+.formularioAtCliente{
+    justify-content: center;
+}
+
+.formularioAtCliente .imput-field label, .radio-label{
+    margin-top: 5px;
+}
+
+.formularioTxt h2, .formularioTxt h4{
+    text-align: center;
+    padding: 10px 0 5px 0;
+    font-weight: 700;
+}
+
+.formularioCompleto{
+    margin: 30vh 0 30vh 0;
+    text-align: center;
+    display: none;
+}
+
+.formCompletoImg{
+    width: 150px;
+    height: auto;
+}
+
+.formCompletoTxt{
+    margin: 30px 0 30px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.label-top{
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.campoForm{
+    border: 1px solid black;
+    margin-top: 3px;
+}
+.campoForm:focus{
+    border-color: #000000;
+    box-shadow: 0 0 0 3px rgb(190, 190, 190);
+}
+
+.campoFormError{
+    border: 1px solid rgb(255, 0, 0);
+    margin-top: 3px;
+}
+.campoFormError:focus{
+    border-color: #ff0000;
+    box-shadow: 0 0 0 3px rgb(255, 190, 190);
+}
+
+.errorAtCliente{
+    color: red;
+}
+
+/* Estilos para Carrito Vacío */
+
+.carritoVacio{
+    text-align: center;
+    margin: 200px 0 200px 0;
+}
+
+.carritoVacio h4{
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.carritoVacioIcon{
+    font-size: 75px;
+    color: red;
+}
+
+.linkCarritoVacio{
+    font-size: 20px;
+    font-weight: 450;
+}
+
+/* Estilos para Quienes Somos */
+
+.quienesSomos h1{
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.quienesSomos .row1{
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.quienesSomosImg{
+    width: 80%;
+    padding-top: 20px;
+}
+
+.quienesSomosTxt{
+    font-size: 20px;
+    text-align: justify;
+    padding-inline-end: 20px;
+}
+
+.quienesSomos h3{
+    text-align: center;
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+    padding: 10px 0 10px 0;
+}
+
+.quienesSomosTxt2{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.quienesSomosIcon{
+    padding-bottom: 10px;
+    width: 15%;
+}
+
+.columnaMision{
+    padding: 0 25px 0 25px;
+}
+
+.quienesSomos .row2{
+    margin-bottom: 70px;
+}
+
+/* Estilos para Terminos y Condiciones */
+
+.tYC h1{
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.tYC p, .tYC ul li{
+    text-align: justify;
+    font-size: 17px;
+}
+
+.tYC h3{
+    border: 1px solid rgb(230, 230, 230);
+    background-color: rgb(230, 230, 230);
+    margin-top: 15px;
+}
+
+.tYC a, .ubicacion{
+    text-decoration: none;
+}
+
+/* Estilos para Comercialización */
+
+.comercializacion{
+    margin-bottom: 25px;
+}
+
+.comercializacion h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.comercializacion h2{
+    text-align: start;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    border-top: 1px solid rgb(214, 214, 214);
+    padding: 10px 0 10px 10px;
+}
+
+.envios, .sucursal, .mediosDePago{
+    text-align: center;
+}
+
+.envios h3, .sucursal h3, .mediosDePago h3{
+    margin-top: 7px;
+    color: red;
+}
+
+.envios h4, .sucursal h4{
+    color: rgb(80, 80, 80);
+}
+
+.enviosTxt{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.enviosTxt1, .pagosTxt1{
+    font-weight: bold;
+}
+
+.enviosTxt2, .pagosTxt2{
+    font-size: 25px;
+    color: red;
+}
+
+.sucursalTxt{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tablaH{
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tablaH th{
+    font-weight: 750;
+    color: white;
+    background-color: #666666;
+    border-bottom: 1px solid #666666;
+}
+
+.tablaH td{
+    font-weight: 750;
+    background-color: #FFAA00;
+    border-top: 1px solid #FFAA00;
+}
+
+.mediosDePago h3{
+    padding-bottom: 20px;
+}
+
+.mediosDePago2 h4{
+    border-top: 1px solid rgb(214, 214, 214);
+    padding-top: 10px;
+}
+
+/* Estilos para formulario Iniciar Sesión y Registrarse */
+
+.inicioSesionContainer, .registroContainer, .altaProdContainer, .altaUsuarioContainer, .editarDatosPersonalesC{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inicioSesion, .registrarse, .altaProducto, .altaUsuario, .editarDatosP{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 50px;
+    border-radius: 5%;
+}
+
+.inicioSesion h2, .registrarse h2, .altaProducto h2, .altaUsuario h2, .editarDatosP h2{
+    font-weight: 900;
+}
+
+.campoInicio, .campoRegistro, .campoAltaProd, .campoAltaUsuario, .campoEditarDatosP{
+    margin-top: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imput-field label{
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.recordarme input, .acepTYC input{
+    border: 1px solid rgb(100, 100, 100);
+    margin-left: auto;
+    margin-right: 3px;
+    color: black;
+    cursor: pointer;
+}
+
+.recordarme label, .acepTYC label{
+    user-select: none;
+    cursor: pointer;
+}
+
+.recordarme {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botonIniciar, .botonRegistrarse{
+    margin-top: 35px;
+    padding: 15px;
+    width: 100%;
+    border: 2px solid red;
+    color: red;
+    transition: all .15s ease;
+}
+
+.botonIniciar:hover, .botonRegistrarse:hover{
+    background-color: red;
+    color: white;
+}
+
+.btn.botonIniciar:active, .btn.botonRegistrarse:active{
+    background-color: rgb(190, 0, 0);
+    border-color: rgb(190, 0, 0);
+    color: white;
+}
+
+.inicioSesion p a, .recordarme a, .acepTYC a{
+    color: black
+}
+
+.verContraseñaRegistro, .verContraseñaLogin{
+    float: right;
+    color: gray;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.verContraseñaRegistro, .verContraseñaLogin{
+    transform: translate(-10px, -40px);
+}
+
+
+.verContraseñaRegistro:hover, .verContraseñaLogin:hover{
+    color: black;
+}
+
+.registrarse h2, .altaProducto h2, .altaUsuario h2, .editarDatosP h2{
+    margin-bottom: 30px;
+}
+
+.acepTYC label{
+    font-size: 13px;
+    padding-top: 2px;
+}
+
+.acepTYC{
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.requerido, .errorRegistro, .errorLogin, .errorAltaProd, .errorAltaUsuario, .errorEditarUsuario{
+    color: #F11C0E;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.errorRegistro, .errorLogin, .errorAltaProd, .errorAltaUsuario, .errorEditarUsuario{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.usuarioRegistradoMsg{
+    margin-bottom: 5px;
+}
+
+.promocionesRequired, .loginRequired, .registroRequired, .altaProdRequired{ /*mensajes de error requeridos*/
+    display: none;
+}
+
+/*Estilos para el apartado "mi cuenta" */
+.miCuenta h2{
+    font-weight: 700;
+    margin: 30px 0px 35px 20px;
+}
+
+.miCuentaContainer1, .miCuentaContainer2{
+    color: rgb(60, 60, 60);
+    margin-bottom: 25px;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 25px 25px 15px 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.4);
+}
+
+.miCuentaContainer1{
+    margin-right: 10px;
+}
+
+.miCuenta1{
+    display: flex;
+    justify-content: center;
+}
+
+.editarPerfil, .editarPass{
+    float: right;
+}
+
+.editarPass{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.cabeceraCardPerfil{
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.nombreUser{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*Estilos para crud productos */
+
+.filaProductos, .filaUsuarios, .filaConsultas{
+    border: .5px solid rgb(200, 200, 200);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.elemTablaProd, .elemTablaUsuarios, .elemTablaConsultas{
+    border-right: .5px solid rgb(200, 200, 200);
+}
+
+.colTablaProd, .colTablaConsulta{
+    border: .5px solid rgb(200, 200, 200);
+}
+
+.botonAgregarProd, .botonProdEliminados{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.table.dataTable thead th{
+    text-align: center;
+}
+
+.botonProdEliminados{
+    border: 2px solid rgb(200, 0, 0);
+    color: rgb(200, 0, 0);
+}
+
+.botonProdEliminados:hover{
+    background-color: rgb(200, 0, 0);
+    color: white
+}
+
+.btn.botonProdEliminados:active{
+    background-color: rgb(180, 0, 0);
+    border-color: rgb(180, 0, 0);
+    color: white;
+}
+
+.botonEditarProd, .botonEliminarProd, .botonActivarProd, .botonLeerConsulta, .botonVerFactura{
+    font-size: 20px;
+}
+
+.botonEditarProd{
+    margin-right: 5px;
+}
+
+.botonActivarProd{
+    border-radius: 20px;
+}
+
+.botonLeerConsulta{
+    border-radius: 10px;
+}
+
+.botonVerFactura{
+    border-radius: 50%;
+}
+
+/*formulario de alta*/
+.botonEnviarProd{
+    border: 2px solid rgb(0, 120, 0);
+    color: rgb(0, 120, 0);
+}
+
+.botonEnviarProd:hover{
+    background-color: rgb(0, 120, 0);
+    color: white;
+}
+
+.btn.botonEnviarProd:active{
+    background-color: rgb(0, 100, 0);
+    border-color: rgb(0, 100, 0);
+    color: white;
+}
+
+/* Animación para mensajes temporales */
+.fade-out {
+    transition: opacity 0.3s ease-out;
+    opacity: 0;
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+div.dt-container {
+    width: 1116px;
+}
+
+div.dt-container div.dt-paging{
+    margin-bottom: 20px !important;
+}
+
+.msgModal{
+    font-size: 13px;
+    color: gray;
+}
+
+.imgModalProd{
+    max-width: 55%;
+}
+
+/*Estilos para el catálogo de productos*/
+
+.cabeceraCatalogo h2{
+    font-weight: 600;
+}
+
+.ordenarPor{
+    justify-content: end;
+}
+
+/*Estilos para la vista por producto*/
+
+.containerVistaProducto{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.columnaImagenProd{
+    text-align: center;
+}
+
+.containerDatosProd h4{
+    font-weight: 600;
+}
+
+.containerDatosProd h2{
+    font-weight: 600;
+    padding: 7px 0px 5px 0px;
+}
+
+.containerDatosProd .marca{
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    padding: 0px 0px 20px 0px;
+}
+
+.containerDatosProd{
+    border: 1px solid rgb(214, 214, 214);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cantidadProd{
+    border-left: none;
+    border-right: none;
+}
+
+.cantidadProd:focus{
+    box-shadow: none;
+}
+
+.btn-dark.botonIncrementar {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-dark.botonDecrementar {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.checkCarrito{
+    color: red;
+    font-size: 25px;
+}
+
+/*Estilos para la vista de productos en el carrito*/
+.carEliminar{
+    float: right;
+    font-size: 18px;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 9px;
+    border-radius: 30%;
+    transition: all .2s ease;
+}
+.carEliminar:hover{
+    color: white;
+    background-color: black;
+}
+.carEditar{
+    margin-right: 10px;
+    color: red;
+    border: 1px solid red;
+}
+.carEditar:hover{
+    color: white;
+    background-color: red;
+}
+.datosCar{
+    font-size: 13px;
+    font-weight: bold;
+}
+.datosProductoCar{
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+.contenedorCarrito{
+    margin-bottom: 50px;
+}
+.resumenCar h5{
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(214, 214, 214);;
+}
+.resumenCar{
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 20px;
+    padding: 20px;
+}
+.granTotal{
+    float: right;
+}
+.btn.btn-outline-secondary{
+    border: 2px solid #6c757d;
+}
+
+/*Estilos para la factura*/
+.facturaContainer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.filaImgFactura{
+    display: flex;
+    text-align: end;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.filaImgFactura img{
+    width: 150px;
+    height: auto;
+}
+.filaIndicesFactura{
+    padding: 7px 0px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.filaTotalesFactura{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}

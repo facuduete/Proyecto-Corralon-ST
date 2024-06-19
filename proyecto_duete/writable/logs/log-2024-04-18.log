@@ -1,0 +1,27 @@
+CRITICAL - 2024-04-18 11:53:24 --> ParseError: syntax error, unexpected 'atencion_al_cliente' (T_STRING), expecting ')'
+in APPPATH\Views\front\footer_view.php on line 28.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/footer_view', [], true)
+ 3 APPPATH\Controllers\Home.php(28): view('front/footer_view')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->mi_carrito()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 17:09:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/terminos_y_condiciones.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/terminos_y_condiciones.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/terminos_y_condiciones', [], true)
+ 3 APPPATH\Controllers\Home.php(42): view('front/terminos_y_condiciones')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->terminos_y_condiciones()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 17:10:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/terminos_y_condiciones.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/terminos_y_condiciones.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('front/terminos_y_condiciones', [], true)
+ 3 APPPATH\Controllers\Home.php(42): view('front/terminos_y_condiciones')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->terminos_y_condiciones()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
